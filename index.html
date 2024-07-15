@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaishnavi Portfolio</title>
+    <link rel="stylesheet" href = "style.css">
+    <script src="https://kit.fontawesome.com/291869b459.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id = "header">
+        <div class ="container">
+            <nav>
+                <img src="images/logo1.jpeg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#Coding-Profiles">Coding Profiles</a></li>
+                    <li><a href="#Certifications">Certifications</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+                
+            </nav>
+            <div class = "header-text">
+                <p>AIML Enthusiastic</p>
+                <h1> Hey, I'm <span>Sree Vaishnavi</span><br> Karipe !</h1>
+            </div>
+        </div>
+
+    </div>
+<!----------------------------about--------------------------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/vaishnavi.jpeg" alt="Vaishnavi">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p> I'm a Sree Vaishnavi Karipe, undergraduate student at CBIT, deeply immersed in AI, ML & Data Science. Fueled by curiosity, I turn knowledge into hands-on projects for true mastery. With a strong academic base and software development experience, I contribute to groundbreaking projects, staying at the forefront of technology. Welcome to my portfolio, where curiosity meets technical innovation.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Languages</span><br>Python,R, C, Java, SQL </li>
+                        <li><span>Coursework</span><br>DSA, DBMS, OOPs,Operating Systems, Computer Networks </li>
+                        <li><span>Core-Subjects</span><br>Machine Learning, Artificial Intelligence, Natural Language Processing, Deep Learning</li>
+                        <li><span>Data Analysis & Visualizations</span><br>NumPy, Pandas, Tableau, PowerBI, Excel, Matplotlib, Seaborn</li>
+                        <li><span>DataBases</span><br>SQL, MongoDB</li>
+                        <li><span>Development</span><br>HTML, CSS, JavaScript, ReactJS, Django</li>
+                        <li><span>Tools</span><br>GitHub, VS-Code, PyCharm, MySQL, RStudio's, Colab</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Gap Inc </span><br>Software Developer Intern</li>
+                        <br>
+                        <li><span>Indian School Of Business </span><br>Digital Operations Intern <a href="https://drive.google.com/drive/folders/1E5YRa_pnfb2CKXgVOq81HX_SCsaao-KF" target="_blank">Certificate</a></li>
+                        <p>◦ Executed the Digital placement operations at ISB for PGP Class of 2023 successfully.</p>
+                        <p>◦ Customized & Managed Skynet, Zoom & WhatsApp to communicate with Hiring teams & Students.</p> 
+                        <br>
+                        <li><span>AICTE Idea Labs </span><br>Machine Learning Intern  <a href="https://drive.google.com/drive/folders/1E5YRa_pnfb2CKXgVOq81HX_SCsaao-KF" target="_blank">Certificate</a></li>
+                        <p>◦ Completed a four-week Internship Programme on Technical Solution and Business Plan preparation for the Idea on WingSpan.</p>
+                        <p>◦ Developed a machine learning project to create a website for managing the college canteen system and recommending food to newly registered students.</p>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Chaitanya Bharathi Institute Of Technology</span><br>B.E- Artificial Intelligence & Machine Learning<br>CGPA–9.62/10</li>
+                        <br>
+                        <li><span>Sri Sanjeevni Jr College </span><br>TSBIE Intermediate – MPC<br>Percentage –98.2%</li>
+                        <br>
+                        <li><span>St Pius X High School</span><br>TSBSE High School<br>CGPA - 10.00</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--------------------------------certfications----------------------------------------->
+<div id="Certifications">
+    <div class="container">
+        <h1 class="sub-title">Certifications</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-laptop-file"></i>
+                <h2>Machine Learning Specialization</h2>
+                <p>Amazon - Machine Learning Course</p>
+                <a href="https://drive.google.com/drive/folders/1DPxuaBZu1bR3RFK8pY0qACDZqgMovaO3">Certificate</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-brain"></i>
+                <h2>AI Foundation & Advance</h2>
+                <p>Hexat.In</p>
+                <a href="https://drive.google.com/drive/folders/1E5YRa_pnfb2CKXgVOq81HX_SCsaao-KF">Certificate</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Data Structures & Algorithms</h2>
+                <p>IIT Madras - NPTEL</p>
+                <a href="https://drive.google.com/drive/folders/1E5YRa_pnfb2CKXgVOq81HX_SCsaao-KF">Certificate</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-dev"></i>
+                <h2>Web Development</h2>
+                <p>Internshala</p>
+                <a href="https://drive.google.com/drive/folders/1E5YRa_pnfb2CKXgVOq81HX_SCsaao-KF">Certificate</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- ----------portfolio----=------------------------------------------ -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Personal Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.jpeg" alt="WINGSPAN - A Canteen Management System">
+                <div class="layer">
+                    <h3>WINGSPAN - A Canteen Management System</h3>
+                    <p>Directed an in-depth online survey targeting CBIT students, developed a user-friendly
+                        website, and integrated a canteen recommendation system using ML algorithms.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.jpeg" alt="WhatsApp Chat Sentiment Analyzer">
+                <div class="layer">
+                    <h3>WhatsApp Chat Sentiment Analyzer</h3>
+                    <p>Developed a sentiment analysis tool for WhatsApp group chats using ML algorithms,
+                        NLP techniques, and deep learning models, achieving up to 93% accuracy. Visualized communication patterns emphasizing data-driven insights using Streamlit.</p>
+                    <a href="https://github.com/vaish06navi/WhatsApp-Chat-Sentiment-Analyzer"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.jpeg" alt="Netflix Customer Analysis Dashboard">
+                <div class="layer">
+                    <h3>Netflix Customer Analysis Dashboard</h3>
+                    <p>Developed an interactive Netflix dashboard in Tableau, highlighting the top 10 genres and binge-watching
+                        trends. Improved user satisfaction by 30% with search functionality for ratings, genres, and descriptions.</p>
+                    <a href="https://github.com/vaish06navi/Netflix-Dashboard"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/vaish06navi?tab=repositories" class="btn">Wanna have look for all my projects</a>
+    </div>
+</div>
+
+
+<!-----------------------------------------Coding Prodiles---------------------------------------------->
+<div id ="Coding-Profiles">
+    <div class ="container">
+        <h1 class="sub-title">Coding Profiles </h1>
+        <div class="coding-list">
+            <div>
+                
+                <i class="fa-solid fa-code"></i>
+                <h2>LeetCode</h2>
+                <a href="https://leetcode.com/u/vaish06navi/">Profile Link</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-hackerrank"></i>
+                <h2>Hackerrank</h2>
+                <a href="https://www.hackerrank.com/profile/sreevaishnavika1">Profile Link</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code-compare"></i>
+                <h2>GeeksForGeeks</h2>
+                <a href="https://www.geeksforgeeks.org/user/sreevaishnavikaripe03/?utm_source=geeksforgeeks&utm_medium=my_profile&utm_campaign=auth_user">Profile Link</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-codepen"></i>
+                <h2>TakeUforward</h2>
+                <a href="https://takeuforward.org/profile/sreevaishnavikaripe03@gmail.com">Profile Link</a>
+            </div>
+            
+        </div>
+    </div>
+
+</div>
+
+
+
+<!-- ----------contact------------- -->
+<!-- Contact Section -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i> <a href="mailto:sreevaishnavikaripe03@gmail.com">sreevaishnavikaripe03@gmail.com</a></p>
+                <p><i class="fas fa-phone-square-alt"></i> +91 8074422795</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/sree-vaishnavi-karipe-0a82b9253/"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/vaish06navi"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="images/Sree Vaishnavi Karipe_resumeF.pdf" download class="btn btn2">Download - Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © 2024 Vaishnavi Karipe</p>
+    </div>
+</div>
+
+
+
+<script>
+    function opentab(tabname) {
+        let tablinks = document.getElementsByClassName("tab-links");
+        let tabcontents = document.getElementsByClassName("tab-contents");
+
+        for (let tablink of tablinks) {
+            tablink.classList.remove("active-link");
+        }
+
+        for (let tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+        }
+
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+
+
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxpmkGy67tWqomPDWGSGVCTZzz8RgNhlVcXgSwyOxrB-Bg_e1FLvqK5JScvUF0NitvYEw/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
